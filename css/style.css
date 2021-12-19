@@ -1,0 +1,111 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Lucida Sans;
+    color: aliceblue;
+}
+#o_main{
+    width: 100%;
+    min-height: 900px;
+    position: relative;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.o_control{
+    width: 100%;
+    min-height: 700px;
+    text-align: center;
+    float: left;
+    box-shadow: 0px 4px 26px 1px rgba(0,0,0,0.62);
+    background: #c6eaf8;
+    
+    
+}
+#ox_card{
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.ox_width{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 5px;
+}
+.ox_label{
+    width: 100%;
+    min-height: 60px;
+    background: #229ecf;
+    text-align: center;
+    margin:  5px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.ox_btn{
+    width: 100%;
+    min-height: 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    background: #3787ac;
+    border: none;
+    margin: 10px;
+    box-shadow: 0px 4px 26px 1px rgba(195,237,255,0.62);
+    letter-spacing: 1px;
+    transition: 0.2s;
+    background-image: url();
+    
+}
+.ox_btn:active{
+    background: #92b7c5;
+    color: black;
+}
+#txt{
+    color: #000;
+}
+.o_control h1{
+    color: #0b4458;
+    margin: 5px;
+}
+.ox_font{
+    font-size: 18px;
+}
+.ox_label label{
+    font-size: 16px;
+}
+/* .ox_fixed{
+    width: 180px;
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 450px;
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (max-width: 1292px) {
+    .ox_btn{
+        width: calc(100% - 50px);
+    }
+}  */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 768px) {
+    .ox_btn{
+        width: calc(100% - 100px);
+    }
+} */
+
+
